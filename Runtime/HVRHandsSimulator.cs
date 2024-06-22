@@ -1,3 +1,4 @@
+#if GUZ_HVR_INSTALLED
 using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
@@ -418,3 +419,4 @@ namespace HurricaneVRExtensions.Simulator
         #endregion
     }
 }
+#endif
